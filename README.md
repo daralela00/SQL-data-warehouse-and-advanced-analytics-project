@@ -1,10 +1,10 @@
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+Welcome to the **Data Warehouse and Analytics Project** repository!   
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
-## 🏗️ Data Architecture
+##  Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](docs/Architecture.drawio.png)
@@ -14,7 +14,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
-## 📖 Project Overview
+##  Project Overview
 
 This project involves:
 
@@ -25,7 +25,7 @@ This project involves:
 
 ---
 
-## 🚀 Project Requirements
+##  Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
@@ -48,3 +48,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
+---
+##  About Me
+
+Hi there! I'm Darko Mirkovic. I’m studying Information Technologies at Faculty of sience in Novi Sad.
