@@ -3,6 +3,8 @@ After DDL script for silver layer run this script to transform and load silver t
 Here we are transorming table "bronze.crm_cust_info" from bronze layer into a table "silver.crm_cust_info" that we need for silver layer.
 */
 
+TRUNCATE TABLE silver.crm_cust_info;
+
 INSERT INTO silver.crm_cust_info (
 	cst_id,
 	cst_key,
