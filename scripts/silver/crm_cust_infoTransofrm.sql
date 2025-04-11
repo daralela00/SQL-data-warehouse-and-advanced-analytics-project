@@ -1,5 +1,5 @@
 /*
-Here we are transorming table "crm_cust_info" from bronze layer into a table that we need for silver layer.
+Here we are transorming table "bronze.crm_cust_info" from bronze layer into a table "silver.crm_cust_info" that we need for silver layer.
 */
 
 INSERT INTO silver.crm_cust_info (
