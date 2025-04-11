@@ -15,7 +15,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 **Data Integration Model**
 ![](docs/DataIntegrationModel.png)
 
-**Data Mart**
+**Data Mart** <br/>
 ![](docs/DataMart.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
