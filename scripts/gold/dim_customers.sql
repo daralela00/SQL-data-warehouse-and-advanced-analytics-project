@@ -3,7 +3,7 @@ After Completing silver layer run this script.
 Here we are creating dimension in gold layer named "gold.dim_customers".
 */
 
-DROP VIEW gold.fact_sales;
+DROP VIEW gold.dim_customers;
 
 CREATE VIEW gold.dim_customers AS
 SELECT
