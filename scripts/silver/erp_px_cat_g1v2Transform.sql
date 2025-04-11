@@ -3,6 +3,8 @@ After DDL script for silver layer run this script to transform and load silver t
 Here we are transorming table "bronze.erp_px_cat_g1v2" from bronze layer into a table "silver.erp_px_cat_g1v2" that we need for silver layer.
 */
 
+TRUNCATE TABLE silver.erp_px_cat_g1v2;
+
 INSERT INTO silver.erp_px_cat_g1v2 (
 	id,
 	cat,
