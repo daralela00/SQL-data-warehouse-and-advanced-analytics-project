@@ -24,5 +24,11 @@ WHERE cst_lastname != TRIM(cst_lastname)
 SELECT DISTINCT cst_gndr
 FROM silver.crm_cust_info
 
+-- Check for invalidate date orders
+
+SELECT *
+FROM bronze.crm_prd_info
+where prd_end_dt < prd_start_dt
+  
 -- Checking whole table 
 SELECT * FROM silver.crm_cust_info
