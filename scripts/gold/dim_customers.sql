@@ -1,6 +1,6 @@
 /*
-After Completing silver layer run this script to create a gold layer view named "gold.dim_customers"
-Here we are transorming tables from silver layer to create a gold layer object.
+After Completing silver layer run this script.
+Here we are creating dimension in gold layer named "gold.dim_customers".
 */
 
 CREATE VIEW gold.dim_customers AS
