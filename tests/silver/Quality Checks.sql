@@ -19,6 +19,13 @@ SELECT cst_lastname
 FROM silver.crm_cust_info
 WHERE cst_lastname != TRIM(cst_lastname)
 
+-- Check for Nulls or negative numbers
+-- We expect no results here
+
+SELECT prd_key
+FROM silver.crm_prd_info
+WHERE prd_cost < 0 OR prd_cost IS NULL
+
 -- Data standardization and consistency
 
 SELECT DISTINCT cst_gndr
