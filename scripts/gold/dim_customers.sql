@@ -3,6 +3,8 @@ After Completing silver layer run this script.
 Here we are creating dimension in gold layer named "gold.dim_customers".
 */
 
+DROP VIEW gold.fact_sales;
+
 CREATE VIEW gold.dim_customers AS
 SELECT
 	ROW_NUMBER () OVER (ORDER BY cst_id) AS customer_key,
