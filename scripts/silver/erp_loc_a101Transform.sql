@@ -3,6 +3,8 @@ After DDL script for silver layer run this script to transform and load silver t
 Here we are transorming table "bronze.erp_loc_a101" from bronze layer into a table "silver.erp_loc_a101" that we need for silver layer.
 */
 
+TRUNCATE TABLE silver.erp_loc_a101;
+
 INSERT INTO silver.erp_loc_a101 (
 	cid,
 	cntry
