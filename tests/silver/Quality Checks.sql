@@ -1,5 +1,5 @@
 /*
-Checking 'silver.crm_cust_info'
+Quality chekcs for silver layer.
 */
 
 -- Check for Nulls or duplicates
