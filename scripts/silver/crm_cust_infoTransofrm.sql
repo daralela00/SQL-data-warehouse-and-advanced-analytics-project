@@ -1,5 +1,5 @@
 /*
-After DDL script for silver layer run this script to transform and load sivler table named "sivler.crm_cust_info".
+After DDL script for silver layer run this script to transform and load silver table named "silver.crm_cust_info".
 Here we are transorming table "bronze.crm_cust_info" from bronze layer into a table "silver.crm_cust_info" that we need for silver layer.
 */
 
